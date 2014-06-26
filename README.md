@@ -8,6 +8,7 @@ IndexProcess
 
 1. 编写Pages.txt文件. 文件格式为"原书页码|中文版页码", 如:
 
+```
 1|1
 2|1
 3|2
@@ -18,9 +19,11 @@ IndexProcess
 8|6
 9|6
 10|7
+```
 
 2. 编写Index.txt文件. 文件格式为"层次|原文条目名称|中文条目名称|原书页码", 如:
 
+```
 1|Absolute value circuit|绝对值电路|264
 1|AC and DC gain|直流与交流增益|19
 2|complication|复杂化|19
@@ -62,9 +65,11 @@ IndexProcess
 2|interface characteristics|接口的特性|68-70
 2|power supply information|电源的信息|65-66
 2|system information|系统的信息|64-65
+```
 
 3. 运行PagesReplace.pl(需要安装Perl以及Unicode::Collate::Locale和Unicode::Collate::CJK::Pinyin两个CPAN模块), 生成Index_out.txt. 如:
 
+```
 交流到直流变换电路（AC to DC converter circuit）, 212
 绝对值电路（Absolute value circuit）, 211
 模数转换器（ADC (analog to digital converter)）, 2
@@ -106,4 +111,4 @@ IndexProcess
 	单电源运放电路的设计步骤（design procedure for single-supply op amp design）, 28
 	复杂化（complication）, 15
 	联立方程（simultaneous equations）, 17
-
+```
