@@ -6,8 +6,7 @@ IndexProcess
 使用方法
 ========
 
-1. 编写Pages.txt文件. 文件格式为"原书页码|中文版页码", 如:
-
+1\. 编写Pages.txt文件. 文件格式为"原书页码|中文版页码", 如:
 ```
 1|1
 2|1
@@ -20,9 +19,7 @@ IndexProcess
 9|6
 10|7
 ```
-
-2. 编写Index.txt文件. 文件格式为"层次|原文条目名称|中文条目名称|原书页码", 如:
-
+2\. 编写Index.txt文件. 文件格式为"层次|原文条目名称|中文条目名称|原书页码", 如:
 ```
 1|Absolute value circuit|绝对值电路|264
 1|AC and DC gain|直流与交流增益|19
@@ -66,9 +63,7 @@ IndexProcess
 2|power supply information|电源的信息|65-66
 2|system information|系统的信息|64-65
 ```
-
-3. 运行PagesReplace.pl(需要安装Perl以及Unicode::Collate::Locale和Unicode::Collate::CJK::Pinyin两个CPAN模块), 生成Index_out.txt. 如:
-
+3\. 运行PagesReplace.pl(需要安装Perl以及Unicode::Collate::Locale和Unicode::Collate::CJK::Pinyin两个CPAN模块), 生成Index_out.txt. 如:
 ```
 交流到直流变换电路（AC to DC converter circuit）, 212
 绝对值电路（Absolute value circuit）, 211
