@@ -107,3 +107,4 @@ IndexProcess
 	复杂化（complication）, 15
 	联立方程（simultaneous equations）, 17
 ```
+注意: 所有文本文件都应当使用UTF-8编码.
